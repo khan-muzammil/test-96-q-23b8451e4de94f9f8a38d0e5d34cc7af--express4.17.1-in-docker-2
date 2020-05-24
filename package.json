@@ -11,11 +11,16 @@
     "express": "~4.17.1",
     "http-errors": "~1.6.3",
     "jade": "~1.11.0",
-    "morgan": "~1.9.1"
+    "mongoose": "^5.9.15",
+    "morgan": "~1.9.1",
+    "uuid": "^8.1.0"
   },
   "config": {
     "mongodbMemoryServer": {
       "version": "latest"
     }
+  },
+  "devDependencies": {
+    "mongodb-memory-server": "^6.6.1"
   }
 }
